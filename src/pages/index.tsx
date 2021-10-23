@@ -234,14 +234,14 @@ const Home: NextPage = () => {
                 GitHub
               </Button>
 
-              {isHiddenButton > 5 && (
+              //{isHiddenButton > 5 && (
                 <Button
                   title="Aksi bir sonucu zorlamak için tıklayın"
                   onClick={() => setForceReverseResult((prev) => !prev)}
                 >
                   {isTodaySpecial ? "Çekilir Çekilir" : "Yok Çekilmez"}
                 </Button>
-              )}
+              //)}
             </>
           )}
         </motion.div>
