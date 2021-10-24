@@ -12,7 +12,7 @@ const Interact: React.FC<InteractProps> = ({ onClick }) => (
 
       <div className="p-4 text-gray-400 bg-gray-100 rounded-lg">
         <h1 className="text-lg text-gray-500">Dikkat!</h1>
-        <p>Bu projenin mizah dışında hiçbir amacı yoktur. Proje bu sunucuya test amaçlı yüklenmiştir.</p>
+        <p>Bu projenin mizah dışında hiçbir amacı yoktur.</p>
       </div>
 
       <Button onClick={onClick}>Başla</Button>
