@@ -234,7 +234,7 @@ const Home: NextPage = () => {
                 GitHub
               </Button>
 
-              {isAnimationDone && (
+              {isHiddenButton > 5 && (
                 <Button
                   title="Aksi bir sonucu zorlamak için tıklayın"
                   onClick={() => setForceReverseResult((prev) => !prev)}
