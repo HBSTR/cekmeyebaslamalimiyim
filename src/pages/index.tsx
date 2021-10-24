@@ -220,18 +220,18 @@ const Home: NextPage = () => {
 
           {isAnimationDone && (
             <>
-              <Button
+              /*<Button
                 href="https://github.com/eggsy/bu-saatte-cekilir-mi#destek-ol"
                 target="_blank"
               >
                 Projeyi Destekle
-              </Button>
+              </Button>*/
 
               <Button
                 href="https://github.com/eggsy/bu-saatte-cekilir-mi"
                 target="_blank"
               >
-                GitHub
+                Proje Sahibi (GitHub)
               </Button>
 
               {isHiddenButton > 5 && (
